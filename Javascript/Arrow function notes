@@ -1,4 +1,4 @@
-//Traditional function
+# //Traditional function
 function (a){
   return a+10;
 }
