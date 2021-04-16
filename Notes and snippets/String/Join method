@@ -1,0 +1,19 @@
+The java.lang.string.join() method concatenates the given elements with the delimiter and returns the concatenated string.
+Note that if an element is null, then null is added.
+
+String.join(" < ", "Four", "Five", "Six", "Seven");
+Four < Five < Six < Seven
+
+
+String.join("  ", "My", "name", "is", "Niraj", "Pandey");
+My name is Niraj Pandey
+
+
+String.join("-> ", "Wake up", "Eat", "Play", "Sleep", "Wake up");
+Wake up-> Eat-> Play-> Sleep-> Wake up
+
+
+
+String []word1 = {"abc", "d", "defg"};
+System.out.println(String.join("", word1));
+abcddefg
